@@ -20,6 +20,7 @@
     ]
   },
   "dependencies": {
+    "@umijs/plugin-esbuild": "^1.0.0-beta.2",
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.2.3",
     "lint-staged": "^10.0.7",
