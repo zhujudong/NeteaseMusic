@@ -1,0 +1,36 @@
+.header-menu-list {
+  display: flex;
+
+  .header-menu-item > a {
+    position: relative;
+    display: block;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 16px;
+    font-size: 14px;
+    color: #cccccc;
+
+    &:hover {
+      background-color: #000000;
+      color: #ffffff;
+    }
+  }
+
+  .header-menu-item.selected > a {
+    background-color: #000000;
+    color: #ffffff;
+
+    &::after {
+      content: ' ';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      transform: translateX(-50%);
+      border-bottom: 8px solid #c20c0c;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+    }
+  }
+}

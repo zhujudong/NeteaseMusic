@@ -1,4 +1,5 @@
 {
+  "name": "NeteaseMusic",
   "private": true,
   "scripts": {
     "start": "umi dev",
